@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "test": "jest --watchAll",
+    "test": "jest --watchAll -t 'ISBNValidation'",
     "e2e": "cypress open"
   },
   "devDependencies": {
